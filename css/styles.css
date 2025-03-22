@@ -1,0 +1,73 @@
+:root {
+    --blue: #1DA1F2;
+    --hover-blue: #2F7AD6;
+    --white: #f9f9f9;
+    --black: #121212;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+header, #text, #author, #new-quote {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 2.2rem;
+    text-align: center;
+    color: var(--white);
+    font-weight: bold;
+}
+
+#quote-box {
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+#author {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: var(--black);
+}
+
+#new-quote {
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 15px; 
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid var(--blue);
+}
+
+#tweet-quote {
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;  
+}
+
+#new-quote:hover, #tweet-quote:hover {
+    background-color: var(--hover-blue);
+    cursor: pointer;
+}
