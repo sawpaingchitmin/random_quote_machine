@@ -42,7 +42,7 @@ const QuoteBox = () => {
             <a 
                 id="tweet-quote" href={`https://twitter.com/intent/tweet?text=${quote} - ${author}`}
                 target="_blank" rel="noopener noreferrer">
-            Tweet
+            <i class="fa-brands fa-twitter"></i>
             </a>
         </div>
     );
