@@ -5,17 +5,13 @@
     --black: #121212;
 }
 
-html {
-    height: 100%;
-    margin: 0;
+body {
+    background-color: var(--blue);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;   
-}
-
-body {
-    background-color: var(--blue);
+    align-items: center; 
+    min-height: 100vh;
 }
 
 header, footer, #text, #author, #new-quote {
