@@ -35,7 +35,6 @@ const QuoteBox = () => {
         fetchQuote();
     }, []); // Empty dependency array means this runs only once on mount
 
-    
     return (
         <div id="quote-box">
             <div id="text">"{quote}"</div>       {/* Display the quote */}
